@@ -1,6 +1,6 @@
-opencv-python # For Windows 
-cvzone==1.6.1
-mouse
-numpy==1.23.5
-mediapipe==0.10.5
-pyautogui
+# Tested on Python 3.11 and 3.14.
+# mediapipe installs opencv-contrib-python, which provides cv2. Do not also
+# install opencv-python: both packages ship cv2 and overwrite each other.
+mediapipe>=0.10.30
+numpy
+pyautogui>=0.9.54  # mouse control on Windows, macOS and Linux/X11

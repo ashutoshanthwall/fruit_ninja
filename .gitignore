@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+models/
+.preview_window.json
