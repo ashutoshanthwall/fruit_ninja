@@ -1,6 +1,46 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
 .venv/
 venv/
+env/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Hand landmark model (downloaded automatically on first run)
 models/
+*.task
+
+# Local app state (preview window position/size)
 .preview_window.json
+
+# Recordings and exported media
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.wav
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
